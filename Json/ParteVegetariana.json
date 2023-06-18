@@ -1,0 +1,40 @@
+[
+  {
+    "nombre": "Life green",
+    "imagen": "../images/logooo3.png",
+    "ingredientes": "Lechuga, tomate, queso vegano, champiñones, salsa especial",
+    "precio": 3299
+  },
+  {
+    "nombre": "Vegan of Vegan",
+    "imagen": "../images/logooo3.png",
+    "ingredientes": "Lechuga, tomate, tofu, queso vegano, salsa especial",
+    "precio": 1899
+  },
+  {
+    "nombre": "Not Meat",
+    "imagen": "../images/logooo3.png",
+    "ingredientes": "Lechuga, tomate, lentejas, queso vegano, salsa especial",
+    "precio": 2999
+  },
+  {
+    "nombre": " locura del Granjero",
+    "imagen": "../images/logooo3.png",
+    "ingredientes": "Lechuga, tomate, hongo portobello, queso vegano, salsa especial",
+    "precio": 1999
+  },
+  {
+    "nombre": "Sesamo",
+    "imagen": "../images/logooo3.png",
+    "ingredientes": "Lechuga, tomate, lentejas, queso vegano, salsa especial",
+    "precio": 2599
+  },
+  {
+    "nombre": "Mediterranea",
+    "imagen": "../images/logooo3.png",
+    "ingredientes": "Lechuga, tomate, hongo portobello, queso vegano, salsa especial",
+    "precio": 3299
+  }
+]
+
+  

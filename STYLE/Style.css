@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+  background-color: #ffb703;
+  
+}
+/* SECCION CARRITO */
+
+
+.navbar-text{
+  margin-right: 30px;
+}
+.navbar{
+  background-color: #d57208;
+}
+.navegacion a{
+  font-size: 15px;
+  color: white;
+  margin-left: 250px;
+  font-style: italic;
+  
+}
+.navegacion a:hover{
+  color: #000000;
+  background-color: #fff703;
+  border-radius: 400px;
+}
+
+
+/* SECCION ONE */
+  
+.One {
+  position: relative;
+  background-color: #ffb703;
+  width: 100%;
+  height: 100%;
+}
+
+.One .burger-img {
+  position: relative;
+  z-index: 1;
+  margin-left: 160px;
+  margin-top: 120px;
+  animation: floating 2s ease-in-out infinite;
+}
+
+/* Resto de los estilos para .One */
+
+
+@keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.hamburguesa-titulo {
+    position: absolute;
+    top: 50%;
+    right: 11%;
+    transform: translateY(-40%);
+    z-index: 2;
+    margin-right: 35px;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    
+}
+.boton-titulo{
+    width: 250px;
+    position: absolute;
+    margin-top: 500px;
+    transform: translateX(32%);
+    z-index: 2;
+    margin-right: 50px;
+    font-size: 20px;
+    padding: 12px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.411) ;
+    
+}
+.boton-titulo a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.boton-titulo:hover{
+    background-color: #ff006e;
+}
+
+/* SECCION TWO */
+.Two {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f68c1c;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 200px;
+  margin-top: 150px;
+  font-style: italic;
+  color: white;
+}
+.hamburguesa-titulo-h2{
+  font-size: 55px;
+  margin-top: 80px;
+}
+.right {
+  align-self: flex-start;
+  margin-top: 60px;
+  animation: floating 2s ease-in-out infinite;
+  
+}
+
+.boton-h2{
+    width: 250px;
+    position: absolute;
+    margin-top: 360px;
+    z-index: 2;
+    margin-right: 50px;
+    font-size: 20px;
+    padding: 12px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.411) ;
+}
+.boton-h2 a{
+  text-decoration: none;
+  color: black;
+}
+.boton-h2:hover{
+  background-color: #ff006e;
+}
+.hamburguesa-p{
+  font-size: 25px;
+  color: #000000;
+}
+/* SECCION 3 */
+.tree{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffe601;
+}
+.tree-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.burger-img-tree {
+  margin-right: 20px;
+  animation: floating 2s ease-in-out infinite;
+}
+
+.burguer-titulo {
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+.boton-title{
+  width: 250px;
+  position: absolute;
+  top: 540px;
+  transform: translateX(50%);
+  z-index: 2;
+  margin-left: 650px;
+  font-size: 20px;
+  padding: 12px 12px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.411) ;
+}
+.boton-title a{
+  text-decoration: none;
+  color: black;
+}
+.font{
+  list-style: none;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+
+.boton-title:hover{
+  background-color: #ff006e;
+}
+
+
+/* footer */
+footer{
+  background-color: #717171;
+  height: 70px;
+}
+.alinear-centro{
+  background-color: #7a7a7a88;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.alig{
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 20px;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+.iconos{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 50px;
+}
+.left{
+  background-color: white;
+  border-radius: 400px;
+}
+.derecha{
+  background-color: white;
+  border-radius: 400px;
+}
+.left:hover{
+  background-color: rgba(70, 132, 226, 0.824);
+}
+.derecha:hover{
+  background-color: rgba(88, 218, 118, 0.824);
+}
+
+/* PAGINA DE LOCALES */
+
+.fondo-completo {
+  position: relative;
+}
+
+.fondo-completo img {
+  filter: brightness(50%); 
+}
+
+.fondo-completo h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  font-style: italic;
+}
+/* Pagina de Mercado */
+
+.clase-centro{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.body{
+  width: 26%;
+  margin-left: 50px;
+  margin-bottom: 80px;
+  margin-right: 60px;
+  margin-top: 80px;
+  transition: width 0.3s, height 0.3s;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  background-color: #ff9900;
+  box-shadow: 0px 0px 10px 10px rgb(0, 0, 0);
+  padding: 30px;
+}
+
+.titulo{
+  font-size: 30px;
+  font-style: italic;
+}
+.imagen{
+  width: 250px;
+}
+
+.Descripcion{
+  text-align: center;
+  font-size: 19px;
+  font-style: italic;
+}
+
+.Precio{
+  font-size: 40px;
+  margin-top: 15px;
+}
+.boton-agregar-carro{
+  font-size: 15px;
+  padding: 5px;
+  color: white;
+  background-color: rgba(108, 171, 14, 0.792);
+  border: 3px solid black;
+  margin-top: 15px ;
+}
+
+.boton-agregar-carro:hover{
+  background-color: #0c6772;
+}
+
+
+
+
+/* Carrito Mercado */
+.Carrito-ubicacion{
+  position: relative;
+  margin-left: 90%;
+  bottom: 42px;
+  background-color: #fb8500;
+  width: 35px;
+  height: 35px;
+  border-radius: 90%;
+}
+
+
+#numeroProductos{
+  color: rgb(255, 255, 255);
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  position: relative;
+  bottom: 47px;
+  margin-left: 20px;
+  
+}
+.fondo-canvas{
+  background-color: #810606;
+}
+.list-group-item{
+  background-color: rgb(224, 224, 44);
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.boton-eliminar{
+  background-color: rgb(235, 40, 40);
+  margin-left: 20px;
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.boton-eliminar:hover{
+  background-color: rgb(113, 16, 16);
+}
+
+#totalPedidos{
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.offcanvas-title{
+  color: white;
+  font-size: 25px;
+}

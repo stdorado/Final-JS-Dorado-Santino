@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Clásica",
+    "imagen": "../images/Burguer-2.png",
+    "ingredientes": "Lechuga, tomate, carne de res, queso, salsa especial",
+    "precio": 2999
+  },
+  {
+    "nombre": "Doble Meat",
+    "imagen": "../images/Burguer-2.png",
+    "ingredientes": "Lechuga, tomate, doble carne de res, queso, salsa especial",
+    "precio": 2399
+  },
+  {
+    "nombre": "BBQ",
+    "imagen": "../images/Burguer-2.png",
+    "ingredientes": "Lechuga, tomate, carne de res, queso, salsa BBQ",
+    "precio": 3499
+  },
+  {
+    "nombre": "Mexicana",
+    "imagen": "../images/Burguer-2.png",
+    "ingredientes": "Lechuga, tomate, carne de res, queso, salsa picante",
+    "precio": 2199
+  },
+  {
+    "nombre": "Tres Estrellas",
+    "imagen": "../images/Burguer-2.png",
+    "ingredientes": "Lechuga, tomate, carne de res, queso, salsa BBQ",
+    "precio": 2399
+  },
+  {
+    "nombre": "Extra Hot",
+    "imagen": "../images/Burguer-2.png",
+    "ingredientes": "Lechuga, tomate, carne de res, queso, salsa picante",
+    "precio": 2799
+  }
+]
